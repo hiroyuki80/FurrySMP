@@ -1,79 +1,61 @@
-[21:48:15] [main/INFO]: Using mbed TLS based native cipher.
-[21:48:15] [main/INFO]: Using zlib based native compressor.
-[21:48:15] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:26.1-R0.1-SNAPSHOT:6596b78:605
-[21:48:15] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
-[21:48:15] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[21:48:15] [main/INFO]: Epoll is working, utilising it!
-[21:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[21:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[21:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[21:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[21:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[21:48:15] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[21:48:15] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=605, git=6596b78)
-[21:48:15] [main/INFO]: Attempting to Jenkins download module cmd_alert v605
-[21:48:16] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/26.1/builds/605/downloads/cmd_alert-26.1-605.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[21:48:16] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=605, git=6596b78)
-[21:48:16] [main/INFO]: Attempting to Jenkins download module cmd_find v605
-[21:48:16] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/26.1/builds/605/downloads/cmd_find-26.1-605.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[21:48:16] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=605, git=6596b78)
-[21:48:16] [main/INFO]: Attempting to Jenkins download module cmd_list v605
-[21:48:16] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/26.1/builds/605/downloads/cmd_list-26.1-605.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[21:48:16] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=605, git=6596b78)
-[21:48:16] [main/INFO]: Attempting to Jenkins download module cmd_send v605
-[21:48:16] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/26.1/builds/605/downloads/cmd_send-26.1-605.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[21:48:16] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=605, git=6596b78)
-[21:48:16] [main/INFO]: Attempting to Jenkins download module cmd_server v605
-[21:48:17] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/26.1/builds/605/downloads/cmd_server-26.1-605.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[21:48:17] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=605, git=6596b78)
-[21:48:17] [main/INFO]: Attempting to Jenkins download module reconnect_yaml v605
-[21:48:17] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/26.1/builds/605/downloads/reconnect_yaml-26.1-605.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
-[21:48:17] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[21:48:17] [main/WARN]: :>  
-[21:48:17] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[21:48:17] [main/WARN]: :>  
-[21:48:17] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[21:48:17] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[21:48:17] [main/WARN]: :>  apart from the versions listed below:
-[21:48:17] [main/WARN]: :>  
-[21:48:17] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
-[21:48:17] [main/WARN]: :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
-[21:48:17] [main/WARN]: :>  
-[21:48:17] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
-[21:48:17] [main/WARN]: :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
-[21:48:17] [main/WARN]: :>  
-[21:48:17] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[21:48:17] [main/WARN]: :>  
-[21:48:17] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[21:48:17] [main/WARN]: :>  
-[21:48:17] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[21:48:18] [main/WARN]: Error loading plugin EaglercraftXBungee
-java.lang.NoClassDefFoundError: gnu/trove/map/TIntObjectMap
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.loadConfig(EaglerBungeeConfig.java:162)
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.reloadConfig(EaglerXBungee.java:302)
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onLoad(EaglerXBungee.java:129)
-	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:417)
-	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:319)
-	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:293)
-	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:70)
-	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
-Caused by: java.lang.ClassNotFoundException: gnu.trove.map.TIntObjectMap
-	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:111)
-	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
-	... 8 more
-[21:48:18] [main/WARN]: Forced host server pvp is not defined
-[21:48:18] [main/WARN]: Exception encountered when loading plugin: EaglercraftXBungee
-java.lang.NullPointerException: Cannot invoke "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.config.EaglerBungeeConfig.getAuthConfig()" because "this.conf" is null
-	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXBungee.onEnable(EaglerXBungee.java:141)
-	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:334)
-	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:305)
-	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:70)
-	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
-[21:48:18] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
-[21:48:33] [Shutdown Thread/INFO]: Closing listener [id: 0x3e599ab1, L:/[0:0:0:0:0:0:0:0]:25577]
-[21:48:33] [Shutdown Thread/INFO]: Closing pending connections
-[21:48:33] [Shutdown Thread/INFO]: Disconnecting 0 connections
-[21:48:33] [Shutdown Thread/INFO]: Disabling plugins
-[21:48:33] [Shutdown Thread/INFO]: Closing IO threads
-[21:48:35] [Shutdown Thread/INFO]: Thank you and goodbye
+[23:34:41] [main/INFO]: Using mbed TLS based native cipher.
+[23:34:41] [main/INFO]: Using zlib based native compressor.
+[23:34:41] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582
+[23:34:41] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[23:34:41] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[23:34:42] [main/INFO]: Epoll is working, utilising it!
+[23:34:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[23:34:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[23:34:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[23:34:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[23:34:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[23:34:42] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[23:34:42] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=582, git=9ab9e2b)
+[23:34:42] [main/INFO]: Attempting to Jenkins download module cmd_alert v582
+[23:34:44] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/cmd_alert-1.21-582.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[23:34:44] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=582, git=9ab9e2b)
+[23:34:44] [main/INFO]: Attempting to Jenkins download module cmd_find v582
+[23:34:44] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/cmd_find-1.21-582.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[23:34:44] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=582, git=9ab9e2b)
+[23:34:44] [main/INFO]: Attempting to Jenkins download module cmd_list v582
+[23:34:45] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/cmd_list-1.21-582.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[23:34:45] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=582, git=9ab9e2b)
+[23:34:45] [main/INFO]: Attempting to Jenkins download module cmd_send v582
+[23:34:45] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/cmd_send-1.21-582.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[23:34:45] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=582, git=9ab9e2b)
+[23:34:45] [main/INFO]: Attempting to Jenkins download module cmd_server v582
+[23:34:46] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/cmd_server-1.21-582.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[23:34:46] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=582, git=9ab9e2b)
+[23:34:46] [main/INFO]: Attempting to Jenkins download module reconnect_yaml v582
+[23:34:46] [main/WARN]: Failed to download: FileNotFoundException : https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/reconnect_yaml-1.21-582.jar @ sun.net.www.protocol.http.HttpURLConnection:1696
+[23:34:46] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[23:34:46] [main/WARN]: :>  
+[23:34:46] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[23:34:46] [main/WARN]: :>  
+[23:34:46] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[23:34:46] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[23:34:46] [main/WARN]: :>  apart from the versions listed below:
+[23:34:46] [main/WARN]: :>  
+[23:34:46] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:0aa2871:1893
+[23:34:46] [main/WARN]: :>  - https://ci.md-5.net/job/BungeeCord/1893/artifact/bootstrap/target/BungeeCord.jar
+[23:34:46] [main/WARN]: :>  
+[23:34:46] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:9ab9e2b:582
+[23:34:46] [main/WARN]: :>  - https://api.papermc.io/v2/projects/waterfall/versions/1.21/builds/582/downloads/waterfall-1.21-582.jar
+[23:34:46] [main/WARN]: :>  
+[23:34:46] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[23:34:46] [main/WARN]: :>  
+[23:34:46] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[23:34:46] [main/WARN]: :>  
+[23:34:46] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[23:34:47] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.3.6 by lax1dude
+[23:34:47] [main/WARN]: Forced host server pvp is not defined
+[23:34:47] [Netty Boss IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[23:34:48] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[23:34:48] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_auths.db
+[23:34:48] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[23:34:48] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.3.6 by lax1dude
+[23:34:48] [Netty Boss IO Thread #1/INFO]: Listening on /0.0.0.0:25577
+[23:37:32] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1]:56618]: Connected via websocket
+[23:37:32] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1]:56618]: Origin header is https://magurock.github.io
+[23:37:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1]:51572]: Connected via websocket
+[23:37:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1]:51572]: Origin header is https://magurock.github.io

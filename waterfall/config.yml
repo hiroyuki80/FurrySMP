@@ -1,9 +1,31 @@
-network_compression_threshold: 256
-remote_ping_timeout: 5000
+connection_throttle: 4000
 online_mode: true
+remote_ping_timeout: 5000
+groups:
+  md_5:
+  - admin
+servers:
+  lobby:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: localhost:25565
+    restricted: false
+  survival112:
+    address: 127.0.0.1:25566
+    motd: '1.12'
+    restricted: false
 remote_ping_cache: -1
+connection_throttle_limit: 3
+enforce_secure_profile: false
+ip_forward: false
 forge_support: true
+player_limit: -1
 max_packets_per_second: 4096
+disabled_commands:
+- disabledcommandhere
+log_pings: true
+max_packets_data_per_second: 33554432
+log_commands: false
+stats: dde3ac65-0400-4880-8b72-c6fd4bae5c4c
 listeners:
 - query_port: 25577
   motd: '&1Another Bungee server'
@@ -20,25 +42,8 @@ listeners:
   max_players: 1
   tab_size: 60
   force_default_server: false
-disabled_commands:
-- disabledcommandhere
-max_packets_data_per_second: 33554432
-player_limit: -1
 reject_transfers: false
-log_commands: false
-connection_throttle_limit: 3
-prevent_proxy_connections: false
-connection_throttle: 4000
-log_pings: true
-groups:
-  md_5:
-  - admin
-stats: dde3ac65-0400-4880-8b72-c6fd4bae5c4c
-servers:
-  lobby:
-    motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
-    restricted: false
+network_compression_threshold: 256
 permissions:
   default:
   - bungeecord.command.server
@@ -53,7 +58,6 @@ permissions:
   - bungeecord.command.send
   - bungeecord.command.find
   - bungeecord.command.perms
-ip_forward: false
-enforce_secure_profile: false
-server_connect_timeout: 5000
+prevent_proxy_connections: false
 timeout: 30000
+server_connect_timeout: 5000

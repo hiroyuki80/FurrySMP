@@ -65,8 +65,9 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
-    portal-search-radius: 128
+    prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
+    portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
@@ -86,7 +87,6 @@ world-settings:
       disable-chest-cat-detection: false
       disable-unloaded-chunk-enderpearl-exploit: true
       village-sieges-enabled: true
-    prevent-moving-into-unloaded-chunks: false
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -121,11 +121,13 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
+    non-player-arrow-despawn-rate: -1
+    prevent-tnt-from-moving-in-water: false
     keep-spawn-loaded-range: 8
     auto-save-interval: -1
-    container-update-tick-rate: 1
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
+    container-update-tick-rate: 1
     frosted-ice:
       enabled: true
       delay:
@@ -137,8 +139,6 @@ world-settings:
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 1
-    non-player-arrow-despawn-rate: -1
-    prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -173,9 +173,9 @@ world-settings:
     fire-physics-event-for-redstone: false
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.5
-    all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
     allow-leashing-undead-horse: false
+    mob-spawner-tick-rate: 1
+    all-chunks-are-slime-chunks: false
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false
