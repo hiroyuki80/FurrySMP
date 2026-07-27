@@ -1,5 +1,5 @@
 connection_throttle: 4000
-online_mode: true
+online_mode: false
 remote_ping_timeout: 5000
 groups:
   md_5:
@@ -7,16 +7,16 @@ groups:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    address: localhost:25566
     restricted: false
-  survival112:
-    address: 127.0.0.1:25566
+  survival18:
+    address: 127.0.0.1:25564
     motd: '1.12'
     restricted: false
 remote_ping_cache: -1
 connection_throttle_limit: 3
 enforce_secure_profile: false
-ip_forward: false
+ip_forward: true
 forge_support: true
 player_limit: -1
 max_packets_per_second: 4096
