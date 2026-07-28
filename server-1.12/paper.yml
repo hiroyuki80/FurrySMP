@@ -65,6 +65,8 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    portal-search-radius: 128
+    queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
     delay-chunk-unloads-by: 10s
@@ -101,7 +103,6 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    queue-light-updates: false
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
@@ -109,6 +110,8 @@ world-settings:
       max-refills: -1
       refresh-min: 12h
       refresh-max: 2d
+    prevent-moving-into-unloaded-chunks: false
+    use-vanilla-world-scoreboard-name-coloring: false
     filter-nbt-data-from-spawn-eggs-and-related: true
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false
@@ -118,21 +121,18 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    portal-search-radius: 128
-    prevent-moving-into-unloaded-chunks: false
-    use-vanilla-world-scoreboard-name-coloring: false
-    keep-spawn-loaded-range: 8
-    auto-save-interval: -1
-    nether-ceiling-void-damage: false
-    allow-non-player-entities-on-scoreboards: false
-    container-update-tick-rate: 1
     frosted-ice:
       enabled: true
       delay:
         min: 20
         max: 40
+    keep-spawn-loaded-range: 8
+    auto-save-interval: -1
+    container-update-tick-rate: 1
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
+    nether-ceiling-void-damage: false
+    allow-non-player-entities-on-scoreboards: false
     elytra-hit-wall-damage: true
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
@@ -140,6 +140,9 @@ world-settings:
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
+    disable-teleportation-suffocation-check: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
     keep-spawn-loaded: true
     anti-xray:
       enabled: false
@@ -178,6 +181,3 @@ world-settings:
     allow-leashing-undead-horse: false
     squid-spawn-height:
       maximum: 0.0
-    disable-teleportation-suffocation-check: false
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
