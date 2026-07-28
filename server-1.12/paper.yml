@@ -65,10 +65,6 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
-    prevent-moving-into-unloaded-chunks: false
-    use-vanilla-world-scoreboard-name-coloring: false
-    portal-search-radius: 128
-    queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
     delay-chunk-unloads-by: 10s
@@ -105,6 +101,7 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    queue-light-updates: false
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
@@ -121,24 +118,27 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
+    portal-search-radius: 128
+    prevent-moving-into-unloaded-chunks: false
+    use-vanilla-world-scoreboard-name-coloring: false
     keep-spawn-loaded-range: 8
     auto-save-interval: -1
+    nether-ceiling-void-damage: false
+    allow-non-player-entities-on-scoreboards: false
+    container-update-tick-rate: 1
     frosted-ice:
       enabled: true
       delay:
         min: 20
         max: 40
-    container-update-tick-rate: 1
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
-    nether-ceiling-void-damage: false
-    allow-non-player-entities-on-scoreboards: false
     elytra-hit-wall-damage: true
-    non-player-arrow-despawn-rate: -1
-    prevent-tnt-from-moving-in-water: false
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 1
+    non-player-arrow-despawn-rate: -1
+    prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:

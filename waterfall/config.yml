@@ -7,10 +7,10 @@ groups:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25566
+    address: localhost:25564
     restricted: false
-  survival18:
-    address: 127.0.0.1:25564
+  survival112:
+    address: 127.0.0.1:25566
     motd: '1.12'
     restricted: false
 remote_ping_cache: -1
